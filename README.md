@@ -5,6 +5,7 @@ Small sample modules for [Mirante](https://github.com/rrgmc/mirante), a personal
 | Sample | Shows |
 |---|---|
 | [`rrgmcwebpages`](rrgmcwebpages) | A web page that comes with the module, served by the app without an HTTP server |
+| [`rrgmcextension`](rrgmcextension) | An extension point, whose code an app replaces with an extension: here [`extensions/rrgmcextension-quote`](extensions/rrgmcextension-quote) |
 
 ## Trying a sample
 

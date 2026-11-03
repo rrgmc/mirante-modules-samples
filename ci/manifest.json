@@ -1,12 +1,18 @@
 {
   "qt": [],
-  "core": { "repo": "https://github.com/rrgmc/mirante-core", "ref": "46fb3f696522b9b9ee7c6cc3f734e87feaa88ef0" },
+  "core": { "repo": "https://github.com/rrgmc/mirante-core", "ref": "a966cf2597adbbeff3895456deeff1cc4458b34c" },
   "modules": [
     {
       "name": "mirante_modules_samples",
       "repo": "this repository",
       "ref": "this commit",
-      "folders": ["rrgmcwebpages"]
+      "folders": [
+        "rrgmcwebpages",
+        {
+          "folder": "rrgmcextension",
+          "extensions": { "body": { "local": "extensions/rrgmcextension-quote" } }
+        }
+      ]
     }
   ]
 }
