@@ -40,6 +40,10 @@ Make an item of the sample's type in any task. [Building and testing](https://gi
 
 A third-party module's id starts with its owner's name, so these start with `rrgmc`. Use your own GitHub name when you copy one. See [choose an id](https://github.com/rrgmc/mirante-core/blob/master/docs/writing-a-module.md#choose-an-id).
 
+## Author
+
+Rangel Reale <realerangel@gmail.com>
+
 ## License
 
 Released under the [MIT License](LICENSE). Copy any of the code into your own modules.
