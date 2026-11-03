@@ -1,0 +1,24 @@
+# Builds, tests and packages the samples with the core's workflow, and checks
+# their includes and translations. The ref below must match the core's ref in
+# ci/manifest.json.
+
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: rrgmc/mirante-core/.github/workflows/build-app.yml@68a97dde3fb631796407b488a9793e5007807f99
+    with:
+      manifest: ci/manifest.json
+      check-modules: true

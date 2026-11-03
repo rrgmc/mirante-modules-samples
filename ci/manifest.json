@@ -1,0 +1,12 @@
+{
+  "qt": [],
+  "core": { "repo": "https://github.com/rrgmc/mirante-core", "ref": "68a97dde3fb631796407b488a9793e5007807f99" },
+  "modules": [
+    {
+      "name": "mirante_modules_samples",
+      "repo": "this repository",
+      "ref": "this commit",
+      "folders": ["rrgmcwebpages"]
+    }
+  ]
+}

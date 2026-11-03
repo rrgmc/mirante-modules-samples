@@ -1,0 +1,6 @@
+[
+  { "language": "English", "text": "Hello" },
+  { "language": "Português", "text": "Olá" },
+  { "language": "Español", "text": "Hola" },
+  { "language": "Deutsch", "text": "Hallo" }
+]
